@@ -16,7 +16,7 @@ module.exports = {
         var todo = this.toDo;  
           
         todo.addField.isDisplayed();  
-        todo.addField.sendKeys(item);  
+        todo.addField.sendKeys(item);  \\comment
         todo.addButton.click();  
     }  
 };
