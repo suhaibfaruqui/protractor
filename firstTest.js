@@ -12,5 +12,3 @@ describe("This is my first Test", function(){
 	});
 	
 });
-
-//test

@@ -1,6 +1,9 @@
+var mainPage = require('./pages/angularPage.js');  
+
 describe('angularjs homepage', function() {
   it('should greet the named user', function() {
-    browser.get('http://www.angularjs.org');
+   // browser.get('http://www.angularjs.org');
+    mainPage.go();
 
     element(by.model('yourName')).sendKeys('Julie');
 
@@ -8,8 +11,9 @@ describe('angularjs homepage', function() {
 
     expect(greeting.getText()).toEqual('Hello Julie!');
   });
+});
 
-  describe('todo list', function() {
+describe('todo list', function() {
     var todoList;
 
     beforeEach(function() {
@@ -19,7 +23,7 @@ describe('angularjs homepage', function() {
     });
 
     it('should list todos', function() {
-      expect(todoList.count()).toEqual(2);
+      expect(todoList.count()).toEqual(2);//hbhb
       expect(todoList.get(1).getText()).toEqual('build an AngularJS app');
     });
 
@@ -31,7 +35,6 @@ describe('angularjs homepage', function() {
       addButton.click();
 
       expect(todoList.count()).toEqual(3);
-      expect(todoList.get(2).getText()).toEqual('write a protractor test');
+      expect(todoList.get(2).getText()).toEqual('write a protractor test1');
     });
   });
-});
