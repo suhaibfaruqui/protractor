@@ -1,4 +1,4 @@
-// An example configuration file.
+// An example configuration file.cxvcv
 exports.config = {
   directConnect: true,
 
