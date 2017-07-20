@@ -4,7 +4,7 @@ module.exports = {
     toDo: {  
         addField: element(by.css('[placeholder="add new todo here"]')),  
         checkedBox: element(by.model('todo.done')),  
-        addButton: element(by.css('[value="add"]'))  
+        addButton: element(by.css('[value="add"]'))  //df
     },  
       
     go: function() {  
