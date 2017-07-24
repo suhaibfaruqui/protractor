@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
- <testsuite name="angularjs homepage" timestamp="2017-07-20T16:06:40" hostname="localhost" time="11.417" errors="0" tests="1" skipped="0" disabled="0" failures="0">
-  <testcase classname="angularjs homepage" name="should greet the named user" time="11.416" />
+ <testsuite name="angularjs homepage" timestamp="2017-07-20T16:25:50" hostname="localhost" time="12.526" errors="0" tests="1" skipped="0" disabled="0" failures="0">
+  <testcase classname="angularjs homepage" name="should greet the named user" time="12.526" />
  </testsuite>
- <testsuite name="todo list" timestamp="2017-07-20T16:06:51" hostname="localhost" time="5.864" errors="0" tests="2" skipped="0" disabled="0" failures="1">
-  <testcase classname="todo list" name="should list todos" time="2.975" />
-  <testcase classname="todo list" name="should add a todo" time="2.887">
+ <testsuite name="todo list" timestamp="2017-07-20T16:26:02" hostname="localhost" time="6.36" errors="0" tests="2" skipped="0" disabled="0" failures="1">
+  <testcase classname="todo list" name="should list todos" time="3.123" />
+  <testcase classname="todo list" name="should add a todo" time="3.235">
    <failure type="toEqual" message="Expected &apos;write a protractor test&apos; to equal &apos;write a protractor test1&apos;."><![CDATA[Error: Failed expectation
-    at Object.<anonymous> (C:\Users\ufarusu\workspace\DKHUB\dkhub-spa\example_spec.js:38:41)
-    at C:\Users\ufarusu\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
-    at new ManagedPromise (C:\Users\ufarusu\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1067:7)
-    at ControlFlow.promise (C:\Users\ufarusu\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2396:12)
-    at schedulerExecute (C:\Users\ufarusu\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
-    at TaskQueue.execute_ (C:\Users\ufarusu\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
-    at TaskQueue.executeNext_ (C:\Users\ufarusu\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
-    at asyncRun (C:\Users\ufarusu\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2860:25)
-    at C:\Users\ufarusu\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7]]>
+    at Object.<anonymous> (C:\Users\udubepa\Desktop\Project\Automation\Protractor_DKHUB\dkhub-spa\example_spec.js:38:41)
+    at C:\Users\udubepa\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\udubepa\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1067:7)
+    at ControlFlow.promise (C:\Users\udubepa\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2396:12)
+    at schedulerExecute (C:\Users\udubepa\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\udubepa\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2970:14)
+    at TaskQueue.executeNext_ (C:\Users\udubepa\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2953:27)
+    at asyncRun (C:\Users\udubepa\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2860:25)
+    at C:\Users\udubepa\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:676:7]]>
    </failure>
   </testcase>
  </testsuite>
